@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles.css">
+    <title>Happiness Homemade</title>
+</head>
+<body>
+    <header id="header">
+     <img id="header-img" src="/assets/Hand_drawn_chef_and_bakery_logo_cartoon_art_illustration.jpg" alt="logo">
+     <nav id="nav-bar">
+         <a class="nav-link" href="#about-us">About Us</a>
+         <a class="nav-link" href="#products">Our Products</a>
+         <a class="nav-link" href="#order-form">Custom-Orders</a>
+     </nav>
+    </header>
+    <h1 id="about-us">About Us</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae iste eius animi est repudiandae expedita assumenda a, corrupti quia amet error velit eligendi sequi id, ad similique veniam ipsam qui?</p>
+    <video id="video" 
+    width="350"
+    height="250"
+    autoplay
+    controls>
+<source src="/assets/pexels-roman-odintsov-8190079.mp4" type="video/mp4">
+<source src="movie.ogg" type="video/ogg">
+</source>
+</video>
+<div id="products">
+    
+    
+
+</div>
+<div class="container">
+    <header class="header">
+      <h1 id="title" class="text-center">Custom Order Form</h1>
+      <p id="description" class="description text-center">
+        Thank you for your interest in a custom order. Please complete the form below and a representative will be in touch soon.<br>
+        If short-notice please call (603) 555-2424.
+      </p>
+    </header>
+    <form id="order-form" action="https://www.freecodecamp.com/email-submit">
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Enter your Email"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number"
+          >Enter your Phone Number</label
+        >
+        <input
+          type="number"
+          name="phone-number"
+          id="number"
+          class="form-control"
+          placeholder="Phone Number"
+        />
+      </div>
+      <div class="form-group">
+        <p>Please describe what you would like to order, how many, and when you would like to pick-up:</p>
+        <textarea
+        id="order"
+        class="form-control"
+        placeholder="Please enter your order details"
+        required></textarea>
+      </div>
+      <input type="submit"
+      value="submit" id="submit">
+    
+      
+    </form>
+
+  
+
+</body>
+</html>
